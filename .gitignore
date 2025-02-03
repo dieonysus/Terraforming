@@ -1,0 +1,29 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Terraform lock file (ensures consistent provider versions; commit only if needed)
+.terraform.lock.hcl
+
+# Terraform working directory (can be regenerated)
+.terraform/
+
+# Ignore variable files that may contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore any plan output files
+*.tfplan
+
+# Ignore temporary files
+*.backup
+*.log
+*.out
+.DS_Store
+Thumbs.db
+
+#Unsolicited recs by Romana yohohohoho
+*.txt
